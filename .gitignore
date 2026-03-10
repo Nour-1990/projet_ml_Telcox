@@ -1,0 +1,54 @@
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit cache
+.streamlit/
+
+# Data files (CSV, Excel, etc.) — les données du projet dans data/ sont versionnées
+*.xlsx
+*.xls
+
+# PDF files (optionnel — retire si tu veux versionner les rapports)
+# *.pdf
+
+# ML model artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
